@@ -1,0 +1,38 @@
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.header__name {
+    font-size: 12vw;
+    margin: 0;
+}
+.additional-info {
+    margin: 2vh 0 3vh 0;
+    font-size: 1.4vw;
+}
+.icon {
+    margin: 0.5vw;
+}
+.link {
+    margin: 2vw;
+    font-size: 1.5vw;
+    color: black;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .links {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+}
